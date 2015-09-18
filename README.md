@@ -1,7 +1,7 @@
 rsync
 =====
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.rsync-660198.svg)](https://galaxy.ansible.com/list#/roles/3303)
+[![Ansible Role](https://img.shields.io/ansible/role/3303.svg)](https://galaxy.ansible.com/list#/roles/3303)
 
 Installs rsync.
 
