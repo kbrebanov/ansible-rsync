@@ -2,6 +2,11 @@
 # tasks file for rsync (CentOS specific)
 
 - name: Install rsync packages
-  yum: name={{ item }} state=present
-  with_items: rsync_packages
-  tags: rsync
+  become: yes
+  yum:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - "{{ rsync_packages }}"
+  tags:
+    - rsync
