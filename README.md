@@ -24,10 +24,10 @@ Example Playbook
 ----------------
 
 Install rsync
-```
+```yaml
 - hosts: all
   roles:
-    - { role: kbrebanov.rsync }
+    - kbrebanov.rsync
 ```
 
 License
